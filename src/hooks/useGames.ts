@@ -1,6 +1,6 @@
 import useData from "./useData";
 
-interface Game {
+export interface Game {
     id: number;
     name: string;
     background_image: string;

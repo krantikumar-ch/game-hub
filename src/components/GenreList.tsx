@@ -34,7 +34,7 @@ const GenreList = ({ onSelect, selectedGenre }: Props) => {
                 src={getCroppedImageUrl(genre.image_background)}
               />
               <Button
-                fontSize="lg"
+                fontSize="md"
                 variant="link"
                 whiteSpace="normal"
                 textAlign="left"
